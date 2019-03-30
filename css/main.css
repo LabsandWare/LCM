@@ -110,6 +110,7 @@ video { display: block; }
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -139,4 +140,30 @@ video { display: block; }
     max-width: 30rem;
     font-size: 1.25rem;
   }
+}
+
+.cover-container {
+  max-width: 49em;
+}
+
+.row .social {
+  margin-top: 5rem;
+}
+
+.row .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.row .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.row .social a:active {
+  color: #fff;
 }
